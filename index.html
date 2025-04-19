@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Jornal Automobilístico</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-..." crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="Tela/css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+</head>
+<body>
+  <div class="container ">
+    <div class="row mt-3">
+      <div class="col-sm-8 col-md-8 col-lg-8">
+        <span class="logo"> C4RR <i class="fa-brands fa-files-pinwheel"></i>s  </span>
+      </div>
+      <div class="col-lg-4 mt-3">
+        <form>
+          <div class="input-group">
+            <input type="text" name="busca" placeholder="Pesquisar..." class="form-control">
+            <button type="submit" class="btn btn-primary"><i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+          <div id="navi" class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Início</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#Exclusivo">Exclusivos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#Tempo">Evolução</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#Futuro">Novos</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Noticias
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Locais</a></li>
+                    <li><a class="dropdown-item" href="#">Nacionais</a></li>
+                    <li><a class="dropdown-item" href="#">Internacional</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <ul class="navbar-nav ms-auto">
+                <li  class="nav-item">
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#EntrarModal">Entrar</button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="row mt-3 fdd">
+      <div id="fc" class="col-lg-12">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/a.jpg" class="d-block w-100  carros" alt="..." >
+            </div>
+            <div class="carousel-item">
+              <img src="images/b.jpg" class="d-block w-100  carros" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/g.webp"  class="d-block w-100  carros" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="row my-3">
+      <div id="Exclusivo" class=" col-sm-4 col-md-4 col-lg-4 mt-1">
+        <div class="card cor " >
+          <img src="images/e.jpg"   class="card-img-top carro" alt="...">
+          <div id="crd1" class="card-body">
+            <h5 class="card-title">Exclusividade</h5>
+            <p class="card-text">Um verdadeiro ícone britânico para quem valoriza história e autenticidade.</p>
+            <a href="https://classicsworld.co.uk/cars/triumph-gt6-road-test/" class="btn btn-primary" target="_blank">Descubra</a>
+          </div>
+        </div>
+      </div>
+      <div id="Tempo" class=" col-sm-4 col-md-4  col-lg-4 mt-1">
+        <div class="card cor">
+          <img src="images/time.jpg" class="card-img-top carro" alt="...">
+          <div id="crd2" class="card-body">
+            <h5 class="card-title">O Tempo Corre</h5>
+            <p class="card-text">Desde os primeiros motores roncando timidamente até as máquinas elétricas que desenham o futuro.</p>
+            <a href="https://neonseguros.com.br/a-evolucao-dos-carros-da-sua-criacao-ate-os-dias-atuais/" class="btn btn-primary" target="_blank">Viaje no tempo</a>
+          </div>
+        </div>
+      </div>
+      <div id="Futuro" class="col-sm-4 col-md-4 col-lg-4 mt-1">
+        <div class="card  cor">
+          <img src="images/fut.jpg" class="card-img-top carro" alt="...">
+          <div  id="crd3" class="card-body">
+            <h5 class="card-title">Futuro?</h5>
+            <p class="card-text">Design autônomo, energia limpa e conexão total: Os carros do amanhã</p>
+            <a href="https://www.bamaqmercedesbenz.com.br/blog/carros-do-futuro-quais-serao-suas-principais-inovac%C3%B5es-tecnologicas" class="btn btn-primary" target="_blank">Conheça</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row mb-3">
+      <div class="col-lg-12">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Valor inestimavel
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Os carros vão muito além do seu valor em dinheiro. Para muitos, são símbolos de conquista, liberdade e paixão. Representam memórias de viagens, encontros e momentos únicos ao volante. Um carro pode carregar histórias de família, ser herança de gerações ou o primeiro grande sonho realizado. Seu valor está também no som do motor, no cheiro do interior, na sensação de dirigir — coisas que o dinheiro não mede. Mais do que máquinas, os carros são experiências vivas, que conectam passado, presente e futuro em cada quilômetro percorrido.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item  mt-3">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Um Propósito
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Mais do que um bem de consumo, o carro é uma ferramenta de utilidade essencial no dia a dia. Ele oferece mobilidade, autonomia e praticidade, conectando pessoas, encurtando distâncias e otimizando o tempo. Seja para o trabalho, lazer ou emergências, o carro se adapta às necessidades de quem o utiliza. Transporta não só pessoas, mas sonhos, responsabilidades e compromissos. Sua versatilidade o torna indispensável em muitas rotinas, provando que sua verdadeira importância está no quanto facilita a vida de quem está ao volante.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item mt-3">
+          <div class="accordion-item ">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Felicidade
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>O carro também é sinônimo de diversão. Para muitos, dirigir vai além da função: é prazer, é aventura. É pegar a estrada sem destino, curtir o som alto, sentir o vento no rosto e apreciar a paisagem. Seja em uma viagem com amigos, em um passeio de domingo ou em uma volta acelerada na pista, o carro desperta emoções únicas. Cada curva, cada acelerada, é uma dose de liberdade. Mais do que levar de um ponto a outro, ele faz parte da experiência — e transforma o caminho em parte da diversão.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="EntrarModal" tabindex="-1">
+      <div class="modal-dialog modal-fullscreen modal-bs-5">
+        <div class="modal-content">
+          <div class="modal-header border-0">
+            <h5 class="modal-title"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <main class="w-100 m-auto form-container"  > 
+              <form>
+                  
+                  <h1 id="log" class="h3 mb-3"> Por favor faça o login <i class="fa-solid fa-right-to-bracket"></i></h1> 
+                 
+                  <div class="form-floating">
+                      <input type="email" class="form-control" id="floatingInput" placeholder="Insira seu E-mail"/>
+                      <label for="floatingInput">E-mail</label>
+                  </div>
+                  <div class="form-floating">
+                      <input type="password" class="form-control" id="floatingInput" placeholder="******"/>
+                      <label for="floatingInput">Senha</label>
+                  </div>
+                  <div class="form-check text-star my-3">
+                      <input type="checkbox" class="form-check-input" id="flexCheckDefault"/>
+                      <label class="form-check-label" for="flexCheckDefault">Lembre-me</label>
+                  </div>
+                  <button class="btn btn-primary w-100 py-2">Entrar <i class="fa-solid fa-right-to-bracket"></i></button>
+              </form>
+          </main>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"></script>
+  </div>
+  <footer class="text-center py-3">
+    &copy; Todos Os Direitos Reservados :: By Rafael Araujo
+  </footer>
+</body>
+
+</html>

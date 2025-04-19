@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+
+.logo {
+    font-family: "Monoton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+    color: #ff6600;
+    text-shadow: 1px 1px #ffffff;
+  }
+
+ 
+
+  .carro {
+    border-radius: 1rem;
+    margin-bottom: 5px;
+  }
+
+  .carros {
+    border-radius: 2rem;
+  }
+
+
+  #crd1 {
+    background-color: #1c012c;
+  }
+  #crd2 {
+    background-color: #1c002e;
+  }
+
+  #crd3 {
+    background-color: #190229;
+  }
+
+  #crd1, #crd2, #crd3 {
+    border-radius: 2rem;
+  }
+
+  .cor {
+    background-color: #fcc155;
+  }
+  body {
+    background-color: #000000;
+  }
+
+  #navi{
+    background-color: #212529;
+    border-radius: 2rem;
+  }
+
+  
+
+  .carousel-item {
+    height: 700px; 
+  }
+  
+  .carousel-item img {
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .card {
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .navbar-nav .nav-link {
+    color: #daff05 !important;
+  }
+  
+  a:hover, a:active{
+	background-color: #ffb9775d;
+	
+	text-shadow: 2px 2px #000000;
+    
+  }
+  
